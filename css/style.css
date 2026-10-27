@@ -455,17 +455,25 @@ main{
     flex-direction: column;
     gap: 20px;
 }
+.Proyecto-intermodular{
+    width: 100%;
+}
+
 .capturas {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     margin-top: 12px;
+    width: 100%;
 }
 
 .capturas img {
+    display: block;
+    flex: 1 1 320px;
+    width: 100%;
     max-width: 100%;
-    width: 480px;
+    min-width: 0;
     height: auto;
-    border-radius: 8px;
-    border: 1px solid #ccc;
+    margin-top: 0;
+    border-radius: 12px;
 }
