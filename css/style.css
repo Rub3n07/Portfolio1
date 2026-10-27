@@ -455,3 +455,17 @@ main{
     flex-direction: column;
     gap: 20px;
 }
+.capturas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.capturas img {
+    max-width: 100%;
+    width: 480px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
